@@ -28,7 +28,7 @@ module.exports = {
     'tx_too_big': '전송(Transaction) 크기가 너무 큽니다. 보내실 수량이나 믹싱 수(Mixin Count)를 줄여주세요',
     'fee_too_low': (minimum) => `전송 수수료가 최저 수수료보다 작습니다: ${minimum}`,
     'amount_too_big': '전송할 수량이 너무 큽니다',
-    'insufficient_balance': ({ needed, found }) => '잔액이 모자랍니다. 필요개수 ${needed}. 잔여개수 ${found}`,
+    'insufficient_balance': ({ needed, found }) => '잔액이 모자랍니다. 필요개수 ${needed}. 잔여개수 ${found}',
     'invalid_payment_id': (paymentId) => `미확인 Payment ID: ${paymentId}`,
     'missing_destination_address': '수신자 지갑 주소 오류',
     'invalid_destination_address': (address) => `수신자 지갑 주소 오류: ${address}`,
