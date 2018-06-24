@@ -4,7 +4,7 @@ module.exports = {
     'must_agree_tos': '서비스 및 이용 약관에 동의 해주세요',
     'email_address_registered': '이메일이 등록 되었습니다',
     'invalid_recaptcha': 'reCAPTCHA를 다시 확인 해주세요',
-    'verification_email_subject': 'BBS.money 계정 활성화 설정',
+    'verification_email_subject': 'BBS.money 계정 활성화',
     'verification_email_body': ({ email, code }) => `
         <p>안녕하세요.</p>
         <p>BBS.money 등록 완료를 위해 아래 링크를 클릭하여 주세요.</p>
@@ -25,7 +25,7 @@ module.exports = {
     'need_both_view_and_spend': '열람과 전송을 가능하게 할 비밀 키(Secret Key)가 필요합니다',
     'incorrect_view': '열람 키가 정확하지 않습니다',
     'incorrect_spend': '전송 키가 정확하지 않습니다',
-    'tx_too_big': '전송(Transaction) 크기가 너무 큽니다. 보내실 수량이나 믹싱 수(Mixin Count)를 줄여주세요',
+    'tx_too_big': '전송 크기가 너무 큽니다. 보내실 수량이나 믹싱 수(Mixin Count)를 줄여주세요',
     'fee_too_low': (minimum) => `전송 수수료가 최저 수수료보다 작습니다: ${minimum}`,
     'amount_too_big': '전송할 수량이 너무 큽니다',
     'insufficient_balance': ({ needed, found }) => '잔액이 모자랍니다. 필요개수 ${needed}. 잔여개수 ${found}',
@@ -51,7 +51,7 @@ module.exports = {
         <p><a href="${config.www.baseUrl}/reset-password.html">${config.www.baseUrl}/reset-password.html</a></p>
         <p>이와 같은 정보를 입력해주셔야 합니다.<br>이메일: ${email}<br>확인 코드: ${code}<br></p>
         <p>감사합니다.<br>BBS.money <br>${config.www.baseUrl}</p>`,
-    'reset_unverified_user_email_subject': 'BBS.money 미검증 계정 암호 설정',
+    'reset_unverified_user_email_subject': 'BBS.money 미검증 계정 암호 설',
     'reset_unverified_user_email_body': (email) => `
         <p>안녕하세요.</p>
         <p>검증이 안된 계정의 암호를 재설정 할 수 없습니다. ${email}</p>
