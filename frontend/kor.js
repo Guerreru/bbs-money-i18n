@@ -1,7 +1,7 @@
 window.language = window.language || {};
 window.language['kr'] = {
     'total': '총 개수',
-    'locked': '보류중,
+    'locked': '보류중',
     'available': '전송 가능',
     'send': '전송',
     'sending': '전송중...',
