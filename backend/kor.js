@@ -68,7 +68,7 @@ module.exports = {
         <p>감사합니다.<br>BBS.money <br>${config.www.baseUrl}</p>`,
     'too_many_unverified_tx': (left) => `전송 검증을 중단합니다. 이 주소에 ${left}의 미검증된 전송이 남았습니다. 다시 시도하여 주세요.`,
     'fail_to_send': '전송이 불가합니다. 수량을 줄여서 다시 시도하여 주세요',
-    'cannot_find_app_id': 'App ID 와 Site ID를 찾을 수 없습니다',
+    'cannot_find_app_id': 'App ID와 Site ID를 찾을 수 없습니다',
     'wait_before_create_new_address': (time) => `새로운 주소를 생성하기 위해 ${parseInt(time / 1000)}초를 기다려 주세요`,
     'invalid_address': (address) => `주소 오류: ${address}`,
 }
