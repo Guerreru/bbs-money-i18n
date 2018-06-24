@@ -142,7 +142,7 @@ window.language['kr'] = {
     'tip_app_key': '앱 키를 안전한 곳에 보관 하세요. 매우 중요한 비밀 정보 입니다.',
     'generate_import_key': '개인 키 생성',
     'recover_from_backup': '백업 복원을 원하세요?',
-    'tip_generate_import_key': '개인 키를 사용하여 BBS.money에서 데스크탑 개인 지갑으로 자금을 이동할 수 있습니다.<br>개인 키 정보를, 데스크탑 지갑에서 파일(File) > 개인 키(Import key)로 복사해서 입력하시면 됩니다.',
+    'tip_generate_import_key': '개인 키를 사용하여 BBS.money에서 데스크탑 개인 지갑으로 자금을 이동할 수 있습니다.<br>개인 키 정보를 데스크탑 지갑 파일(File) > 개인 키(Import key)로 복사해서 입력하시면 됩니다.',
     'import_key_for_this_address': '이 지갑의 개인 키',
     'tip_import_key_for_this_address': '개인 키를 안전한 곳에 보관 하세요. 아무와도 공유를 하지 마세요.',
 };
